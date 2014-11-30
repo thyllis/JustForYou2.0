@@ -5,11 +5,12 @@
 }
 html, body{
 	font-family: 'HelveticaNeue-UltraLight', sans-serif;
-	background-color: #333;
+	background-color: #4B0082;
 	height: 100%;
 }
 .container-fluid {
 	height: 100%;
+	margin: 0 auto;
 }
 /* main */
 .image_div {
@@ -46,9 +47,79 @@ html, body{
 #kimlic {
 	font-size: 2em;
 }
+.continue {
+	font-size: 1em;
+	color: #8eec8e;
+}
+/* floorplan */
+#floor_container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+#floorplan_div {
+	width: auto;
+	margin: 0 auto;
+	border: 1px solid red;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+.floor_group {
+	position: relative;
+	/*left: 0;*/
+	/*right: 0;*/
+	/*margin: 0 auto;*/
+	text-align: right;
+	width: auto;	
+}
+.room {
+	/*vertical-align: top;*/
+	/*position: relative;*/
+	/*display: block;*/
+}
+
+#bath {
+
+}
+#bed_1 {
+	float: right;
+	margin-left: -0.5%;
+}
+#nook {
+	float: right;
+	margin: -0.5% -5.4% 0 0;
+}
+#living {
+	float: left;
+	margin-top: -12%;
+	margin-left: 1%;
+}
+#work {
+	float: right;
+	margin-left: -1%;
+	margin-top: -1%;
+}
+#kitchen {
+	
+}
+#bed_2 {
+	
+}
 /* responsive*/
 @media only screen and (max-width: 1080px){
 	.container-fluid {
-		padding: 0;
+		padding: 3%;
 	}
+	/*#floorplan_div {
+		width: 100%;
+	}*/
 }
+
+
+
+
+
+
+
