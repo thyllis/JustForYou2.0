@@ -1,26 +1,54 @@
 /* just for you 2.0 */
+@font-face {
+	font-family: HelveticaNeue-UltraLight;
+	src: url("../fonts/HelveticaNeue-UltraLight.otf") format("opentype");
+}
 html, body{
-	background-color: #ccc;
+	font-family: 'HelveticaNeue-UltraLight', sans-serif;
+	background-color: #333;
 	height: 100%;
 }
-
 .container-fluid {
 	height: 100%;
 }
-
+/* main */
 .image_div {
 	width: 100%;
 	height: 100%;
-	/*background: url('../img/him_stolen.png') no-repeat center top;*/
-	/*background-size: cover;*/
+	text-align: center;
+	background-color: #333;
 }
-
 .image_div img {
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
 }
-
+.links {
+	text-align: center;
+}
+.btn {
+	background-color: #fff;
+	border: 1px solid #5331A1;
+}
+.btn-toolbar {
+	display: inline-block;
+}
+/* modal */
+.modal-content {
+	opacity: .7	;
+	color: #fff;
+	background-color: #000;
+	font-size: 1.1em;
+}
+#close_mod {
+	background-color: #fff;
+}
+/* story */
+#kimlic {
+	font-size: 2em;
+}
+/* responsive*/
 @media only screen and (max-width: 1080px){
 	.container-fluid {
 		padding: 0;
 	}
+}

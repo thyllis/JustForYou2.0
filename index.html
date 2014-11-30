@@ -1,20 +1,67 @@
+<!-- just for you 2.0 -->
 <!DOCTYPE html>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<script src="js/jquery-2.1.1.min.js"></script>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/bootstrap.min.js"></script>
 	
+	<script src="js/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 </head>
 
 <body>
-	<div class="container-fluid">
-
-		<div id="op1_img" class="row-fluid col-12 image_div">
+	<!-- start main -->
+	<div class="container-fluid main">
+		<div class="row-fluid col-12 image_div">
 			<img src="img/him_stolen.png">
 		</div>
-	</div> <!-- end container -->
+
+		<div class="links">
+			<div class="btn-toolbar" role="toolbar">
+				<div class="btn-group" role="group">
+					<a href=".story" class="btn btn-default open_modal" role="button"data-toggle="modal" ><span class="glyphicon glyphicon-asterisk"></span></a>
+				</div>
+			</div>
+			<div class="btn-toolbar" role="toolbar">
+				<div class="btn-group" role="group">
+					<a href="#" class="btn btn-default" role="button"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a>
+					<a href="#" class="btn btn-default" role="button"><span class="glyphicon glyphicon-remove-sign"></span></a>
+				</div>
+			</div>
+		</div>
+	</div> 
+	<!-- end main -->
+
+	<!-- start modal -->
+	<div class="modal fade story story_modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span id="close_mod" class="glyphicon glyphicon-remove"></button>
+					<h4 class="modal-title">*Cue HIMYM theme song*</h4>
+				</div>
+
+				<div class="modal-body">
+					<span id="kimlic">Kimlic,</span>
+					<br><br>
+					I'm going to tell you the story of how<br>
+					we got here...<br>
+				</div>
+
+				<div class="modal-footer">
+					<div class="btn-toolbar" role="toolbar">
+						<div class="btn-group" role="group">
+							<a href="#" class="btn btn-default" role="button"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a>
+							<a href="#" class="btn btn-default" role="button"><span class="glyphicon glyphicon-remove-sign"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal -->
 </body>
 </html>
