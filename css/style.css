@@ -38,22 +38,19 @@ html, body{
 	bottom: 0;
 	margin: 0 auto;
 	width: 100%;
+	background-color: rgba(77,27,123,0.7);
+	padding-top: 5px;
 }
 .btn {
-	background-color: #fff;
-	border: 1px solid #5331A1;
-}
-.btn_open {
-	border: 1px solid #ADFF2F;
+	border: 1px solid #ccc;
 }
 .btn-toolbar {
 	display: inline-block;
 }
 /* modal */
 .modal-content {
-	opacity: .7;
 	color: #fff;
-	background-color: #000;
+	background-color: rgba(0,0,0,0.7);
 	font-size: 1.1em;
 }
 #close_mod {
@@ -68,7 +65,14 @@ html, body{
 	color: #8eec8e;
 }
 /* floorplan */
-
+#room_list {
+	text-align: right;
+	list-style: none;
+}
+.room_link {
+	font-size: 1.2em;
+	color: #8eec8e;
+}
 /* responsive*/
 @media only screen and (max-width: 1100px){
 	
