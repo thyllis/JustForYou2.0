@@ -51,7 +51,7 @@ html, body{
 .modal-content {
 	color: #fff;
 	background-color: rgba(0,0,0,0.7);
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 #close_mod {
 	background-color: #fff;
@@ -59,6 +59,7 @@ html, body{
 /* story */
 #kimlic {
 	font-size: 2em;
+	color: #8eec8e;
 }
 .continue {
 	font-size: 1em;
@@ -70,9 +71,14 @@ html, body{
 	list-style: none;
 }
 .room_link {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	color: #8eec8e;
 }
+.room_link:hover {
+	color: red;
+	text-decoration: none;
+}
+
 /* responsive*/
 @media only screen and (max-width: 1100px){
 	

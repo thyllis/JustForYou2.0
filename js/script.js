@@ -2,5 +2,5 @@
 setTimeout(
 	function() {
     $('.story').modal('show');
-}, 700);
+}, 300);
 
